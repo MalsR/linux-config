@@ -15,3 +15,6 @@ sudo tar xfz ideaIC-14.1.2.tar.gz
 #cd ideaI*/
 #./idea.sh
 #cd ../
+
+echo "Installing tig"
+sudo apt-get install tig
