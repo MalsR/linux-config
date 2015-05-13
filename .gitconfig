@@ -1,0 +1,8 @@
+[user]
+	email = malinda_rajapakse@hotmail.com
+	name = MalsR
+
+[alias]
+	glog = log --all --oneline --graph --decorate
+	bs = branch -a
+        st = status
