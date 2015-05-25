@@ -1,5 +1,8 @@
 ~!/bin/bash
 
+# http://superuser.com/questions/470664/how-to-download-dropbox-files-using-wget-command
+# http://michaelwales.com/articles/make-gitconfig-work-for-you/
+
 clear
 
 echo "Installing VIM..."
