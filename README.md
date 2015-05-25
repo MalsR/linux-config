@@ -1,0 +1,3 @@
+# Linux config
+
+Some useful files when setting up your linux environment. In progress...
