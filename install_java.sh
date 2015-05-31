@@ -1,5 +1,8 @@
 ~!/bin/bash
 
+echo "Downloading jdk7 from dropbox..."
+sudo wget https://www.dropbox.com/s/stith0rkzb77ybf/jdk-7u79-linux-x64.tar.gz
+
 tar -xvf jdk-7u79-linux-x64.tar.gz
 
 sudo mkdir /usr/lib/jvm
