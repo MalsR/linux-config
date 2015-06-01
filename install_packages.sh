@@ -11,6 +11,12 @@ sudo apt-get install vim
 echo "Installing tig..."
 sudo apt-get install tig
 
+echo "Installing maven..."
+sudo apt-get install maven
+
+echo "Installing gradle..."
+sudo apt-get install gradle
+
 #can wget - echo "Installing Intellij Community Edition....................."
 #sudo tar xfz ideaIC-14.1.2.tar.gz
 #cd ideaI*/
