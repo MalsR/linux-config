@@ -2,6 +2,7 @@
 
 # http://superuser.com/questions/470664/how-to-download-dropbox-files-using-wget-command
 # http://michaelwales.com/articles/make-gitconfig-work-for-you/
+# http://stackoverflow.com/questions/7244321/how-to-update-github-forked-repository
 
 clear
 
