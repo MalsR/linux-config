@@ -26,3 +26,5 @@
 
 [http]
 	sslverify = false
+[core]
+	editor = vim
