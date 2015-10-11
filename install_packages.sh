@@ -21,6 +21,9 @@ sudo apt-get install gradle
 echo "Installing Terminator... "
 sudo apt-get install terminator
 
+echo "Installing Tree..."
+sudo apt-get install tree
+
 #can wget - echo "Installing Intellij Community Edition....................."
 #sudo tar xfz ideaIC-14.1.2.tar.gz
 #cd ideaI*/
