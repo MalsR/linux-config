@@ -1,8 +1,8 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-
-export PATH=$PATH:/usr/lib/jvm/jdk1.7.0/bin
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.0
+export PATH=$JAVA_HOME:$PATH
 
 # If not running interactively, don't do anything
 case $- in
