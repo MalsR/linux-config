@@ -1,4 +1,10 @@
+#!/usr/bin/env bash
 ~!/bin/bash
+
+# set JAVA_HOME only in actual shell session, invoke command:
+# export JAVA_HOME=/usr/lib/jvm/java-<version>
+# To persist this environment variable edit vi ~/.bash_profile file, and add JAVA_HOME env:
+# JAVA_HOME=/usr/lib/jvm/java-<version>
 
 echo "Downloading jdk8 from dropbox..."
 sudo wget https://www.dropbox.com/s/5uy2bvudmny2zgb/jdk-8u74-linux-x64.tar.gz
