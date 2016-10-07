@@ -24,6 +24,13 @@ sudo apt-get install terminator
 echo "Installing Tree..."
 sudo apt-get install tree
 
+echo "Cloning tmux from github"
+cd projects-git
+git clone https://github.com/tmux/tmux.git
+cd tmux && sh autogen.sh
+./configure && make
+cd ..
+
 #can wget - echo "Installing Intellij Community Edition....................."
 #sudo tar xfz ideaIC-14.1.2.tar.gz
 #cd ideaI*/
