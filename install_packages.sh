@@ -24,6 +24,10 @@ sudo apt-get install terminator
 echo "Installing Tree..."
 sudo apt-get install tree
 
+# Tmux - https://github.com/tmux/tmux
+# https://github.com/tmuxinator/tmuxinator
+# https://tmuxcheatsheet.com/
+# https://gist.github.com/andreyvit/2921703
 echo "Cloning tmux from github"
 cd projects-git
 git clone https://github.com/tmux/tmux.git
