@@ -3,6 +3,7 @@
 # for examples
 export JAVA_HOME=/usr/lib/jvm/jdk1.8.0
 export PATH=$JAVA_HOME:$PATH
+export TERM=xterm-color
 
 # If not running interactively, don't do anything
 case $- in
