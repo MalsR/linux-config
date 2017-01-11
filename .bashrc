@@ -4,6 +4,8 @@
 export JAVA_HOME=/usr/lib/jvm/jdk1.8.0
 export PATH=$JAVA_HOME:$PATH
 export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/projects-git/gowork
+export PATH=$PATH:$GOPATH/bin
 export TERM=xterm-color
 
 # If not running interactively, don't do anything
