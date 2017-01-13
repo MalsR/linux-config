@@ -9,5 +9,11 @@ sudo tar -C /usr/local -xzf go1.7.4.linux-amd64.tar.gz
 echo "Create workspace folder"
 # Go path already in .bashrc
 mkdir gowork
+cd gowork
+mkdir src
+mkdir bin
+mkdir pkg
+cd ../
+pwd
 
 go version
