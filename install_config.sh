@@ -5,5 +5,3 @@ cp .gitconfig ~/
 
 echo "Copy bashrc to home"
 cp .bashrc ~/
-
-mkdir projects-git

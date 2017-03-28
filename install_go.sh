@@ -12,7 +12,7 @@ sudo tar -C /usr/local -xzf go1.7.5.linux-amd64.tar.gz
 # Go path already in .bashrc
 # Explanation of go workspace see https://golang.org/doc/code.html
 
-echo "Create workspace folder"
+echo "Create gowork folder"
 mkdir ~/workspace/gowork
 cd ~/workspace/gowork
 
