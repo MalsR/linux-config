@@ -1,6 +1,6 @@
 # Create the git project setup directories to checkout projects
 
-mkdir ~/workspace/
+/usr/bin/sudo mkdir ~/workspace/
 cd ~/workspace/
 
 # Add prometheus and alert-manager repos
@@ -9,6 +9,16 @@ echo "Cloning Prometheus"
 git clone git@github.com:prometheus/prometheus.git
 echo "Cloning Alert Manager"
 git clone git@github.com:prometheus/alertmanager.git
+
+###############################################
+# Checkout all Go related projects
+# https://golang.org/dl/
+# https://golang.org/doc/install
+# https://golang.org/doc/code.html#Workspaces
+###############################################
+cd gowork
+git clone git@github.com:MalsR/give-it-a-go.git
+cd ../
 
 ###############################################
 # Tmux - https://github.com/tmux/tmux
