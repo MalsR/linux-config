@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-~!/bin/bash
+#!/bin/bash
 
 # set JAVA_HOME only in actual shell session, invoke command:
 # export JAVA_HOME=/usr/lib/jvm/java-<version>

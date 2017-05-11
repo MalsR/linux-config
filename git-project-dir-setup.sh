@@ -1,3 +1,4 @@
+#!/bin/bash
 # Create the git project setup directories to checkout projects
 
 /usr/bin/sudo mkdir ~/workspace/
