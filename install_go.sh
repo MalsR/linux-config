@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # https://storage.googleapis.com/golang/go1.7.5.linux-amd64.tar.gz
 
