@@ -4,11 +4,19 @@
 /usr/bin/sudo mkdir ~/workspace/
 cd ~/workspace/
 
-# Add prometheus and alert-manager repos
+###############################################
+# ADD POWERLINE FONTS 
+# https://github.com/powerline/fonts
+###############################################
+git clone https://github.com/powerline/fonts
+./fonts/install.sh
+
+###############################################
+# Metrics: Prometheus & AlertManager
+# https://prometheus.io
 # https://github.com/prometheus/alertmanager/issues/437
-echo "Cloning Prometheus"
+###############################################
 git clone git@github.com:prometheus/prometheus.git
-echo "Cloning Alert Manager"
 git clone git@github.com:prometheus/alertmanager.git
 
 ###############################################
