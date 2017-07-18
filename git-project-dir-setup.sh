@@ -19,15 +19,10 @@ git clone https://github.com/powerline/fonts
 git clone git@github.com:prometheus/prometheus.git
 git clone git@github.com:prometheus/alertmanager.git
 
-###############################################
-# Checkout all Go related projects
-# https://golang.org/dl/
-# https://golang.org/doc/install
-# https://golang.org/doc/code.html#Workspaces
-###############################################
-cd gowork
-git clone git@github.com:MalsR/give-it-a-go.git
-cd ../
+##############################################
+# Kubernetes
+##############################################
+git clone git@github.com:kubernetes/kubernetes.git
 
 ###############################################
 # Tmux - https://github.com/tmux/tmux

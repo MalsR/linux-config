@@ -25,3 +25,15 @@ cd ../
 pwd
 
 go version
+
+###############################################
+# Checkout all Go related projects
+# https://golang.org/dl/
+# https://golang.org/doc/install
+# https://golang.org/doc/code.html#Workspaces
+###############################################
+cd ~/workspace/gowork/src/github.com/malsr/
+git clone git@github.com:MalsR/give-it-a-go.git
+
+cd ~/workspace/gowork/src/github.com/docker/
+git clone git@github.com:docker/go-units.git
