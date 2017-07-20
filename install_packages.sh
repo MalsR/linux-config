@@ -28,3 +28,9 @@ sudo apt-get install terminator
 echo "Installing Tree..."
 sudo apt-get install tree
 
+echo "Installing flux/redshift"
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install fluxgui
+sudo apt-get install redshift
+#sudo add-apt-repository -r ppa:nathan-renniewaldock/flux
