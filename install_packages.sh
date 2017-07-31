@@ -5,32 +5,39 @@
 # http://stackoverflow.com/questions/7244321/how-to-update-github-forked-repository
 
 clear
+sudo -i
 
 echo "Installing autotools-dev"
-sudo apt-get install autotools-dev
-sudo apt-get install automake 
+apt-get install autotools-dev
+apt-get install automake 
 
 echo "Installing VIM..."
-sudo apt-get install vim
+apt-get install vim
 
 echo "Installing tig..."
-sudo apt-get install tig
+apt-get install tig
 
 echo "Installing maven..."
-sudo apt-get install maven
+apt-get install maven
 
 echo "Installing gradle..."
-sudo apt-get install gradle
+apt-get install gradle
 
 echo "Installing Terminator... "
-sudo apt-get install terminator
+apt-get install terminator
 
 echo "Installing Tree..."
-sudo apt-get install tree
+apt-get install tree
+
+echo "Installing pip..."
+apt install python-pip
+
+echo "Installing ansible..."
+pip install ansible
 
 echo "Installing flux/redshift"
-sudo add-apt-repository ppa:nathan-renniewaldock/flux
-sudo apt-get update
-sudo apt-get install fluxgui
-sudo apt-get install redshift
+add-apt-repository ppa:nathan-renniewaldock/flux
+apt-get update
+apt-get install fluxgui
+apt-get install redshift
 #sudo add-apt-repository -r ppa:nathan-renniewaldock/flux
