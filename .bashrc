@@ -6,7 +6,9 @@ export PATH=$JAVA_HOME:$PATH
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/workspace/gowork
 export PATH=$PATH:$GOPATH/bin
-export TERM=xterm-color
+export TERM=xterm-256color
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ;} history -a"
+. /usr/share/autojump/autojump.sh
 
 # If not running interactively, don't do anything
 case $- in

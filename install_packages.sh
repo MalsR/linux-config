@@ -35,6 +35,9 @@ apt install python-pip
 echo "Installing ansible..."
 pip install ansible
 
+echo "Installing autojump"
+apt-get install autojump
+
 echo "Installing flux/redshift"
 add-apt-repository ppa:nathan-renniewaldock/flux
 apt-get update
