@@ -38,6 +38,9 @@ pip install ansible
 echo "Installing autojump"
 apt-get install autojump
 
+echo "Installing jq"
+apt-get install jq
+
 echo "Installing flux/redshift"
 add-apt-repository ppa:nathan-renniewaldock/flux
 apt-get update
