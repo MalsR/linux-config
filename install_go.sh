@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# https://storage.googleapis.com/golang/go1.7.5.linux-amd64.tar.gz
+# https://storage.googleapis.com/golang/go1.8.1.linux-amd64.tar.gz
 
 sudo mkdir /usr/local/go
 
