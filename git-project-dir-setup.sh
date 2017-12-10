@@ -29,6 +29,7 @@ git clone git@github.com:kubernetes/kubernetes.git
 # SCM_BREEZE
 ##############################################
 git clone git@github.com:scmbreeze/scm_breeze.git
+./scm_breeze/install.sh
 
 ###############################################
 # Tmux - https://github.com/tmux/tmux
