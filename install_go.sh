@@ -37,3 +37,16 @@ git clone git@github.com:MalsR/give-it-a-go.git
 
 cd ~/workspace/gowork/src/github.com/docker/
 git clone git@github.com:docker/go-units.git
+
+###############################################
+#
+#
+#
+###############################################
+go get -u github.com/tools/godep
+
+go get -u github.com/golang/lint/golint
+
+go get -u golang.org/x/tools/cmd/goimports
+
+go get -u github.com/kardianos/govendor

@@ -2,7 +2,8 @@
 # Create the git project setup directories to checkout projects
 
 /usr/bin/sudo mkdir ~/workspace/
-cd ~/workspace/
+/usr/bin/sudo mkdir ~/workspace/public_repos/
+cd ~/workspace/public_repos/
 
 ###############################################
 # ADD POWERLINE FONTS 
@@ -23,6 +24,11 @@ git clone git@github.com:prometheus/alertmanager.git
 # Kubernetes
 ##############################################
 git clone git@github.com:kubernetes/kubernetes.git
+
+##############################################
+# SCM_BREEZE
+##############################################
+git clone git@github.com:scmbreeze/scm_breeze.git
 
 ###############################################
 # Tmux - https://github.com/tmux/tmux
